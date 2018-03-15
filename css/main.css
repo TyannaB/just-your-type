@@ -1,5 +1,5 @@
 html {font-size: 1em;
-background color:
+  background color: #ffb6c1;
 }
 
 
@@ -24,10 +24,20 @@ h4 {font-size: 1.414em;}
 
 small, .font_small {font-size: 0.707em;}
 
-.big {
+.bigfont {
   font-family: 'Russo One', sans-serif;
 }
 
 .script {
   font-family: 'Great Vibes', sans-serif;
+}
+
+@media only screen and (min-width: 68em) {
+
+  .red {
+    background-color: #da353c;
+  }
+
+
+
 }
