@@ -3,7 +3,9 @@ html {font-size: 1em;
 }
 
 
-p {margin-bottom: 1.3em;}
+p {margin-bottom: 1.3em;
+  width: 100%
+}
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
@@ -32,11 +34,28 @@ small, .font_small {font-size: 0.707em;}
   font-family: 'Great Vibes', sans-serif;
 }
 
+.grid {
+ background-color: #ffb6c1;
+}
+
+@media only screen and (min-width: 30em) {
+
+
+
+}
+
+
 @media only screen and (min-width: 68em) {
 
   .red {
     background-color: #da353c;
   }
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
 
 
 
