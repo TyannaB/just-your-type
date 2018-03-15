@@ -7,12 +7,11 @@
   font-family: "Great Vibes", sans-serif;
 }
 
-.grid {
- background-color: #ffb6c1;
+body {
+  background-color: #ffb6c1;
 }
 
 @media only screen and (min-width: 30em) {
-
 
   .red {
     background-color: #da353c;
@@ -33,6 +32,5 @@
   .blue {
     background-color: #8fe1db;
   }
-
 
 }
