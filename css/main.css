@@ -1,5 +1,5 @@
 html {font-size: 1em;
-  background color: #ffb6c1;
+
   box-sizing: border-box;
   }
 
@@ -45,16 +45,30 @@ small, .font_small {font-size: 0.707em;}
  background-color: #ffb6c1;
 }
 
+@media only screen and (min-width: 30em) {
 
-
-
-@media only screen and (min-width: 68em) {
 
   .red {
     background-color: #da353c;
 
 
   }
+
+  .blue {
+    background-color: #8FE1DB;
+  }
+
+  .unit {
+    text-align: center;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 68em) {
+
+
 
   .blue {
     background-color: #8FE1DB;
